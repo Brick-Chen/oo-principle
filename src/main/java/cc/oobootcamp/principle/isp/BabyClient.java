@@ -6,7 +6,7 @@ public class BabyClient {
     private static final Logger LOGGER = Logger.getLogger(BabyClient.class.getName());
 
     public static void main(String[] args) {
-        HumanAble baby = new Baby();
+        BabyAble baby = new Baby();
         baby.cry();
         baby.drink();
         baby.cry();

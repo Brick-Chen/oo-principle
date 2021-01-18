@@ -3,7 +3,7 @@ package cc.oobootcamp.principle.isp;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Baby implements HumanAble {
+public class Baby implements BabyAble {
     private Map<String, Long> records = new HashMap<>();
 
     @Override

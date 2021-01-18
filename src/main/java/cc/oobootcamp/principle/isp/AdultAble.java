@@ -1,13 +1,13 @@
 package cc.oobootcamp.principle.isp;
 
-public interface HumanAble {
-    void crawl();
-
+public interface AdultAble {
     void eat();
 
     void drink();
 
-    void cry();
-
     void snore();
+
+    void work();
+
+    void report();
 }
