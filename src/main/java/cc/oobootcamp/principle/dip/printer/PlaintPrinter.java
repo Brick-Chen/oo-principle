@@ -1,9 +1,11 @@
-package cc.oobootcamp.principle.dip;
+package cc.oobootcamp.principle.dip.printer;
 
+import cc.oobootcamp.principle.dip.Item;
+import cc.oobootcamp.principle.dip.OrderReceiptHandler;
 import java.util.List;
 import java.util.logging.Logger;
 
-public class PlaintPrinter {
+public class PlaintPrinter implements Printer{
     private static final Logger LOGGER = Logger.getLogger(OrderReceiptHandler.class.getName());
 
     public void print(List<Item> items, double totalPrice) {
